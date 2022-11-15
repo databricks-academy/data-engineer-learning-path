@@ -142,11 +142,6 @@ display(example_df)
 
 # COMMAND ----------
 
-files = dbutils.fs.ls(f"{DA.paths.datasets}/nyctaxi-with-zipcodes/data")
-display(files)
-
-# COMMAND ----------
-
 # MAGIC %sql
 # MAGIC SELECT * FROM delta.`${DA.paths.datasets}/nyctaxi-with-zipcodes/data`
 
