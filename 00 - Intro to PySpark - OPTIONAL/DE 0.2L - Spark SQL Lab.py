@@ -102,7 +102,7 @@ display(mac_sql_df)
 
 # MAGIC %md **5.1: CHECK YOUR WORK**
 # MAGIC - You should only see **`macOS`** values in the **`device`** column
-# MAGIC - The fifth row should be an event with timestamp **`1592539226602157`**
+# MAGIC - The fifth row should be an event with timestamp **`1592540419446946`**
 
 # COMMAND ----------
 
